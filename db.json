@@ -1,0 +1,179 @@
+
+{
+  "restaurants": [
+    {
+      "id": "1",
+      "name": "Pizza Hut",
+      "address": "Hyderabad",
+      "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=600",
+      "description": "Delicious pizzas and fast food"
+    },
+    {
+      "id": "2",
+      "name": "Paradise Biryani",
+      "address": "Hyderabad",
+      "image": "https://images.unsplash.com/photo-1633945274405-b6c8069047b0?w=600",
+      "description": "Famous Hyderabadi biryani and delicious Indian cuisine"
+    },
+    {
+      "id": "3",
+      "name": "Burger King",
+      "address": "Hyderabad",
+      "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600",
+      "description": "Tasty burgers, fries and refreshing meals"
+    }
+  ],
+  "foods": [
+    {
+      "id": "2",
+      "restaurantId": "1",
+      "name": "Cheese Pizza",
+      "category": "Pizza",
+      "price": 399,
+      "available": true
+    },
+    {
+      "id": "5",
+      "restaurantId": "1",
+      "name": "Margherita Pizza",
+      "category": "Pizza",
+      "price": 299,
+      "available": true
+    },
+    {
+      "id": "6",
+      "restaurantId": "1",
+      "name": "Farmhouse Pizza",
+      "category": "Pizza",
+      "price": 449,
+      "available": true
+    },
+    {
+      "id": "7",
+      "restaurantId": "1",
+      "name": "Paneer Tikka Pizza",
+      "category": "Pizza",
+      "price": 429,
+      "available": true
+    },
+    {
+      "id": "8",
+      "restaurantId": "2",
+      "name": "Chicken Biryani",
+      "category": "Biryani",
+      "price": 250,
+      "available": true
+    },
+    {
+      "id": "9",
+      "restaurantId": "2",
+      "name": "Hyderabadi Dum Biryani",
+      "category": "Biryani",
+      "price": 299,
+      "available": true
+    },
+    {
+      "id": "10",
+      "restaurantId": "2",
+      "name": "Veg Biryani",
+      "category": "Biryani",
+      "price": 199,
+      "available": true
+    },
+    {
+      "id": "11",
+      "restaurantId": "2",
+      "name": "Paneer Biryani",
+      "category": "Biryani",
+      "price": 229,
+      "available": true
+    },
+    {
+      "id": "12",
+      "restaurantId": "3",
+      "name": "Veg Burger",
+      "category": "Burger",
+      "price": 149,
+      "available": true
+    },
+    {
+      "id": "13",
+      "restaurantId": "3",
+      "name": "Cheese Burger",
+      "category": "Burger",
+      "price": 179,
+      "available": true
+    },
+    {
+      "id": "14",
+      "restaurantId": "3",
+      "name": "Crispy Chicken Burger",
+      "category": "Burger",
+      "price": 199,
+      "available": true
+    },
+    {
+      "id": "15",
+      "restaurantId": "3",
+      "name": "French Fries",
+      "category": "Sides",
+      "price": 99,
+      "available": true
+    }
+  ],
+  "orders": [
+    {
+      "items": [
+        {
+          "id": "5",
+          "restaurantId": "1",
+          "name": "Margherita Pizza",
+          "category": "Pizza",
+          "price": 299,
+          "available": true,
+          "quantity": 2
+        },
+        {
+          "id": "7",
+          "restaurantId": "1",
+          "name": "Paneer Tikka Pizza",
+          "category": "Pizza",
+          "price": 429,
+          "available": true,
+          "quantity": 1
+        },
+        {
+          "id": "8",
+          "restaurantId": "2",
+          "name": "Chicken Biryani",
+          "category": "Biryani",
+          "price": 250,
+          "available": true,
+          "quantity": 1
+        },
+        {
+          "id": "12",
+          "restaurantId": "3",
+          "name": "Veg Burger",
+          "category": "Burger",
+          "price": 149,
+          "available": true,
+          "quantity": 1
+        },
+        {
+          "id": "15",
+          "restaurantId": "3",
+          "name": "French Fries",
+          "category": "Sides",
+          "price": 99,
+          "available": true,
+          "quantity": 2
+        }
+      ],
+      "total": 1624,
+      "status": "Preparing",
+      "date": "2026-10-30T17:27:30.847Z",
+      "id": "lxHcOf3GEmE"
+    }
+  ]
+}
